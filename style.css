@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+ul, li{
+list-style: none;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+/* header */
+.header{
+background-color: #C8A35F;
+color: white;
+
+}
+
+.header .container{
+
+width: 1110px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header .container .lang{
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+.header .container .lang p {
+    text-transform: uppercase;
+    opacity: 1;
+    }
+    .header .container .lang p.active {
+     opacity: 0.5;
+        }
+        
