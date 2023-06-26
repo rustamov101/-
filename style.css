@@ -1,3 +1,5 @@
+
+
 *{
 margin: 0;
 padding: 0;
@@ -17,10 +19,10 @@ a {
 .header{
 background-color: #C8A35F;
 color: white;
-
+padding: 16px 0;
 }
 
-.header .container{
+.header .container , nav .container {
 
 width: 1110px;
 margin: 0 auto;
@@ -32,15 +34,110 @@ align-items: center;
 display: flex;
 align-items: center;
 justify-content: center;
-
-
-
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 12px;
+gap: 10px;
 }
 .header .container .lang p {
     text-transform: uppercase;
-    opacity: 1;
-    }
-    .header .container .lang p.active {
-     opacity: 0.5;
-        }
-        
+    opacity: 0.5;
+    
+}
+.header .container .lang p.active {
+     opacity: 1;
+}
+
+nav{
+    background-color: #2F343A;
+    padding: 27px 0;
+}
+.navigation{
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    width: 160px;
+    height: 46px;
+}
+.placeholder{
+    margin-right: 10px;
+    
+}
+
+.logo-holder{
+    display: flex;
+   align-items: center;
+}
+.logo-holder .logo{
+border-right: 2px solid #F2F2F2 ;
+padding-right: 200px;
+margin-right: 30px;
+}
+.navigation  a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    gap: 30px;
+    color: white;
+}
+.logo-holder a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+
+}
+.main {
+width:100%;
+height: 620px;
+
+background-image: url(fura.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.main-text{
+    width: 920px;
+    height: 245px;
+ border: 1px solid #C8A35F;
+ /* margin-top: 20px; */
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 100px;
+}
+.gruz h1{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #C8A35F ;
+}
+.gruz-text{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+padding: 0 50px;
+padding-top: 20px;
+
+}
+.mouse{
+    width: 30px;
+   margin: 0 auto;
+}
