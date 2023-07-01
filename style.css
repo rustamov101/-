@@ -224,7 +224,8 @@ nav {
     color: #C8A35F;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-
+    transition: all 0.7s;
+    
 }
 
 
