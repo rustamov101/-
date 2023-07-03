@@ -64,6 +64,15 @@ nav {
     padding: 27px 0;
 }
 
+
+.header .container p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
 .navigation {
     display: flex;
     gap: 30px;
@@ -232,7 +241,7 @@ nav {
 
 
 
-.arrow-l img {
+.arrow-left img {
     rotate: 180deg;
 }
 
@@ -254,21 +263,26 @@ nav {
 
 }
 
-.fura-block a {
+.fura-block .arrow1  {
     display: flex;
-    color: white;
+
+    align-items: center;
+}
+.arrow1 a{
     font-family: 'Montserrat', sans-serif;
+    color: white;
     font-size: 16px;
     font-weight: 350;
     text-transform: uppercase;
-    align-items: center;
 }
 
-.fura-block .right-btn div {
+
+
+.fura-block .right-btn .arrow-r{
     margin-left: 50px;
 }
 
-.fura-block .left-btn div {
+.fura-block .left-btn .arrow-left {
     margin-right: 50px;
 }
 
@@ -421,6 +435,7 @@ nav {
     transition-timing-function:ease;
     
 }
+
 .third .airplane{
  
     display: flex;
