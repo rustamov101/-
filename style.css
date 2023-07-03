@@ -420,6 +420,7 @@ nav {
    position: relative;
    bottom: 0;
    left: 0;
+   transition: 1s;
 }
 
 
